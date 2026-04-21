@@ -1,6 +1,8 @@
 #!/bin/bash
 
-day=$1
+echo "Enter day number:"
+read day
+
 filename="Day-$day.c"
 
 touch "$filename"
